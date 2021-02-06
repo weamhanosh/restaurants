@@ -54,7 +54,6 @@ public class RestaurantController {
 		return list;
 	}
 	
-	@CrossOrigin("*")
 	@RequestMapping("/restaurants")
 	public List<Restaurant> getRestaurant()
 	{
